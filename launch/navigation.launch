@@ -1,0 +1,3 @@
+<launch>
+  <node name="pardo020navigation" pkg="pardo020_hw3" type="pardo020navigation.py"/>
+</launch>
