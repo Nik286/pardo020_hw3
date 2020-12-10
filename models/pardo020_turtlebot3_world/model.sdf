@@ -1,5 +1,6 @@
 <sdf version='1.5'>
     <!-- Draw Circle -->
+    <!-- README: If modifying this, copy /models/pardo020_turtlbot3_world into /turtlebot3_simulations/turtlebot3_gazebo/models -->
     <model name='ros_symbol'>
       <static>1</static>
       <link name='symbol'>
