@@ -16,6 +16,10 @@
     <arg name="configuration_basename" value="$(arg configuration_basename)"/>
   </include>
 
+  <!-- AMCL localization (unnecessary, will use gmapping localization-->
+  <!-- <include file="$(find amcl)/examples/amcl_diff.launch" /> -->
+
+
   <!-- rviz -->
   <group if="$(arg open_rviz)"> 
     <node pkg="rviz" type="rviz" name="rviz" required="true"
